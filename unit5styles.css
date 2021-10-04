@@ -1,0 +1,57 @@
+body{
+  background-color: saddlebrown;
+}
+h1,h2,h3{
+  text-align: center;
+}
+#wrapper{
+  width: 80%;
+  margin: auto;
+  background-color: sienna;
+  box-shadow: 10px 10px 7px;
+}
+div{
+  width: 90%;
+  margin: auto;
+}
+.itembox{
+  border: 1px solid black;
+  border-radius: 1px;
+  box-shadow: 5px 5px 3px black;
+  background-color: chocolate;
+  color: white;
+  padding: 15px;
+}
+.favorite{
+  border: 3px solid black;
+  border-radius: 1px;
+  box-shadow: 5px 5px 3px black;
+  background-color: sandybrown;
+  color: oldlace;
+  padding: 15px;
+}
+ol,ul{
+  list-style-type: circle;
+  background-color: peru;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+nav li{
+  float: left;
+}
+nav li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  border: 4px black;
+  border-style: hidden hidden hidden solid;
+}
+nav li a:hover{
+  background-color: saddlebrown;
+}
