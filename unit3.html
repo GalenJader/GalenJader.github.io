@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<a href="index.html">Home</a>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header>
+      <h1>Rowan's Photo Gallery</h1>
+      <h4>These are all photos I took!</h4>
+      <hr>
+    </header>
+    <main>
+      <h3> Photos from Disney </h3>
+      <picture>
+        <source media="(max-width:321px)" srcset="images/disney/pandoranight.jpg">
+        <source media="(max-width:426px)" srcset="images/disney/pandoraday.jpg">
+        <source media="(max-width:769px)" srcset="images/disney/cityoflights.jpg">
+        <img src="images/disney/galaxysedge.jpg" style="width:200px; ">
+      </picture>
+      <hr>
+      <h3> Photos from Halloween </h3>
+      <picture>
+        <source media="(max-width:321px)" srcset="images/halloween/avery.jpg">
+        <source media="(max-width:426px)" srcset="images/halloween/someones.jpg">
+        <source media="(max-width:769px)" srcset="images/halloween/riley.jpg">
+        <img src="images/halloween/me.jpg" style="width:200px;">
+      </picture>
+      <hr>
+      <h3> Photos of The Mural </h3>
+      <picture>
+        <source media="(max-width:321px)" srcset="images/mural/left.jpg">
+        <source media="(max-width:426px)" srcset="images/mural/center.jpg">
+        <source media="(max-width:769px)" srcset="images/mural/right.jpg">
+        <img src="images/mural/full.jpg" style="width:200px;">
+      </picture>
+      <hr>
+    </main>
+    <footer>
+      <p><i>(&#169; 2021 Rowan Abzug)</i></p>
+    </footer>
+  </body>
+</html>
