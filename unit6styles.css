@@ -1,0 +1,23 @@
+#small{
+  width:300px ;
+}
+body{
+  background-image:url(back.jpg);
+  background-size:cover;
+}
+#wrapper{
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+}
+#borderimg{
+  background-color:green;
+  color:blue;
+}
+.specialborder{
+  border: 28px solid transparent;
+  border-image:url(https://mdn.github.io/css-examples/tools/border-image-generator/border-image-4.png) 30 round;
+}
+ul{
+  list-style-image:url(sprite.png)
+}
